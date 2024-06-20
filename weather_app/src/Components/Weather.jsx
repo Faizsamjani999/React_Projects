@@ -22,6 +22,10 @@ const Weather = ()=>{
             setOther(res.data.current.condition);
             setLoad(false)
         })
+        .catch((err)=>{
+          console.log("Data Fetching is Wrong",err);
+          setLoad(false);
+        })
     }
 
 
