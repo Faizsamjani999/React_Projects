@@ -1,0 +1,15 @@
+/* App.css */
+.app {
+  display: flex;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.content {
+  margin-left: 150px; /* Sidebar width */
+  margin-top: 70px; /* Header height */
+  padding: 20px;
+  width: calc(100% - 250px); /* Full width minus sidebar width */
+  background-color: #f4f4f4; /* Light gray background */
+  box-sizing: border-box; /* Include padding in width calculation */
+  overflow-x: hidden;
+}
